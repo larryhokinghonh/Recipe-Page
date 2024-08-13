@@ -1,0 +1,112 @@
+p {
+    font-size: 16px;
+}
+
+#recipe-div {
+    margin: 8% auto 8% auto;
+    max-width: 45%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+#recipe-header, #ingredient-header, #instruction-header, #nutrition-header {
+    font-family: "Young Serif";
+    font-weight: 400;
+}
+
+#ingredient-header, #instruction-header, #nutrition-header, #nutrition-val {
+    color: hsl(14, 45%, 36%);
+}
+
+li, #intro-header, #prep-header, #nutrition-desc, .nutrition-name, #nutrition-val {
+    font-family: "Outfit";
+    font-weight: 400;
+}
+
+.strong {
+    font-weight: 600 !important;
+}
+
+.stronger {
+    font-weight: 700 !important;
+}
+
+table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nutrition-name {
+    position: relative;
+    left: 5px;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+img {
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+#recipe-prep-div {
+    background-color: hsl(322.5, 100%, 98.4%);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#prep-header {
+    position: relative;
+    left: 15px;
+    color: hsl(332, 51%, 32%);
+}
+
+li {
+    padding: 5px;   
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid;
+}
+
+#ingredient-details ul {
+    padding-left: 20px;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+b, li, p {
+    color: hsl(30, 10%, 34%);
+}
+
+h1 {
+    color: hsl(24, 5%, 18%);
+}
+
+@media screen and (max-width: 375px) {
+    #recipe-div {
+        margin: 0;
+        max-width: 100%;
+        background-color: hsl(0, 0%, 100%);
+        padding: 0;
+        border-radius: 0;
+    }
+
+    #content-div {
+        padding: 25px;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    img {
+        border-radius: 0;
+    }
+}
